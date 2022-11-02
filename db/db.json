@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrei Mihai",
+      "email": "a@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "name": "Lolo4",
+      "email": "lore@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "name": "Dean",
+      "email": "doke@gmail.com",
+      "password": "123"
+    },
+    {
+      "name": "Tania",
+      "email": "tta@gmail.com",
+      "password": "123",
+      "id": 6
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "name": "IPhone",
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi 2",
+      "userId": 3
+    },
+    {
+      "name": "Logitech",
+      "id": 4,
+      "userId": 1
+    },
+    {
+      "name": "Intel XELE",
+      "userId": 3,
+      "id": 16
+    },
+    {
+      "name": "AMD 12X",
+      "userId": 1,
+      "id": 17
+    }
+  ],
+  "energyConsumptionData": [
+    {
+      "deviceId": 1,
+      "consumed": 12,
+      "hour": 12,
+      "day": 1
+    },
+    {
+      "deviceId": 1,
+      "consumed": 9,
+      "hour": 13,
+      "day": 1
+    },
+    {
+      "deviceId": 1,
+      "consumed": 10,
+      "hour": 14,
+      "day": 1
+    },
+    {
+      "deviceId": 1,
+      "consumed": 7,
+      "hour": 12,
+      "day": 2
+    }
+  ]
+}
