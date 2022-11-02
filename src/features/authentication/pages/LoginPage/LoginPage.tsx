@@ -49,10 +49,7 @@ const LoginPage = () => {
   };
 
   return (
-    <BackgroundImage
-      src="../../../../../src/assets/login-background.svg"
-      className={classes.fullSize}
-    >
+    <BackgroundImage src="./login-background.svg" className={classes.fullSize}>
       <Center sx={{ height: "80%" }}>
         <Card
           className={classes.formCard}
