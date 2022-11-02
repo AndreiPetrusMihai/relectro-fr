@@ -52,7 +52,7 @@ const AppNavbar = () => {
 
   const links = pages.map(
     (page) =>
-      page.roles.includes(role) && (
+      page.roles.includes(role!) && (
         <NavbarLink
           {...page}
           key={page.route}

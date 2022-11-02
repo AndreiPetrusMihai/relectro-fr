@@ -1,5 +1,5 @@
 import React, { FCWC } from "react";
-import { ColumnConfig } from "../CustomTable/CustomTable";
+import { ColumnConfig } from "../types";
 
 type Props<T> = {
   columnsConfig: ColumnConfig<T>[];

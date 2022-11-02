@@ -1,9 +1,9 @@
 import { showNotification } from "@mantine/notifications";
 import { IconTrash } from "@tabler/icons";
 import CustomTable, {
-  ColumnConfig,
   ContextMenuOption,
 } from "../../../../common/components/Table/CustomTable/CustomTable";
+import { ColumnConfig } from "../../../../common/components/Table/types";
 import { User } from "../../model/User";
 import { useDeleteUserMutation } from "../../slice";
 
